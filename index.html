@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- set the viewport for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Hide the browsers interface -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- Set the title bar to be translucent, so we can make it purple-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!--    Add my style sheet  -->
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    
+    <!--    Add the JS to calculate the Days.-->
+    <script type="text/javascript" src="calculate_days.js"></script>
+    
+    <!--    Apple Save to Home screen Icons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="bells57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="bells72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="bells114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="bels144.png" />
+
+    <title>I Love Shelby</title>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="content">
+        <h1><b><span id="numberOfDays" class="theDays">FAIL</span></b> 
+            <br>DAYS</h1>
+        <p><a class="call" href="tel:2627161799">Call your wonderful Husband</a></p>
+        <p><a class="call" href="tel:2627589901">Call your Blushing Bride</a></p>
+        <p><a class="friends" href="findmyfriends:">Where's My Bestie</a></p>
+    </div>
+    <!-- Run this script on page load-->
+    <script type="text/javascript">calculate_days();</script>
+</body>
